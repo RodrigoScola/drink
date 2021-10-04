@@ -1,0 +1,18 @@
+.button {
+  display: flex;
+  line-height: 0.9;
+  font-size: 45px;
+  margin: 0 175px;
+}
+.button svg {
+  margin: 0 5px;
+  height: 45px;
+  width: auto;
+}
+ul {
+  list-style: none;
+  align-content: center;
+}
+ul li {
+  padding: 25px 0;
+}

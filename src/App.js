@@ -1,21 +1,17 @@
 import "./App.css";
+import { CreateAccountComponent } from "./Components/pages/createAccountPage/CreateAccountComponent";
+import { Profile } from "./Components/pages/ProfilePage/Profile";
+import { MainPageComponent } from "./Components/pages/MainPage/MainPageComponent";
+import { FooterComponent } from "./Components/ReusableComponents/footerComponent";
+import { LoginPageComponent } from "./Components/pages/LoginPage/LoginPageComponent";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      {/* <div> */}
+      <LoginPageComponent />
+
+      <FooterComponent />
     </div>
   );
 }
