@@ -6,10 +6,11 @@ import { FooterComponent } from "./Components/ReusableComponents/footerComponent
 import { LoginPageComponent } from "./Components/pages/LoginPage/LoginPageComponent";
 
 function App() {
+  const copos = 5;
+  const coposEmMl = copos * 250;
   return (
     <div className="App">
-      {/* <div> */}
-      <LoginPageComponent />
+      <MainPageComponent copos={copos} coposEmMl={coposEmMl} />
 
       <FooterComponent />
     </div>

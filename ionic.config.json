@@ -1,0 +1,7 @@
+{
+  "name": "drinko",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react"
+}

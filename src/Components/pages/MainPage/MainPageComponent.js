@@ -2,9 +2,7 @@ import React from "react";
 import "./MainPageComponent.css";
 import cups from "../../../images/cups.jpg";
 
-export const MainPageComponent = () => {
-  const copos = 5;
-  const coposEmMl = copos * 250;
+export const MainPageComponent = ({ copos, coposEmMl }) => {
   return (
     <div>
       <h1>ola Hannah Stockings</h1>
