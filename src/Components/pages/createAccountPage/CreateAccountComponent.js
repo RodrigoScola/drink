@@ -1,5 +1,4 @@
 import React from "react";
-import "./CreateAccountComponent.css";
 export const CreateAccountComponent = () => {
   return (
     <div className="createAccount">

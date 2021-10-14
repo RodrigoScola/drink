@@ -1,5 +1,5 @@
 import React from "react";
 
-export const Profile = () => {
+export const FooterComponent = () => {
   return <div></div>;
 };
