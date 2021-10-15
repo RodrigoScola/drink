@@ -4,13 +4,13 @@ const userInfo = {
   username: "hannah",
   profileInfo: {
     description: "live laugh love",
+    createdAtUtc: Date.now(),
   },
-
-  comsumtionInMl: 32984,
   streak: {
     currentStreak: 0,
     bestStreak: 12,
     dateOfLastChange: Date.now(),
   },
+  comsumtionInMl: 32984,
 };
 module.exports = userInfo;

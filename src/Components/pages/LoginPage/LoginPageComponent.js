@@ -1,5 +1,4 @@
-import React from "react";
-import "./LoginPageComponent.css";
+import React, { useRef, useState, useEffect } from "react";
 
 export const LoginPageComponent = () => {
   return (

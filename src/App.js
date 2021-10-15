@@ -25,6 +25,7 @@ const setUserPage = (pageName) => {
 function App() {
   const inMobile = false;
   const [page, setPage] = useState("mainPage");
+  const [userData, setData] = useState(userInfo);
   if (inMobile) {
     return <div>{setUserPage(page)}</div>;
   } else {
@@ -32,10 +33,7 @@ function App() {
       <Router>
         <Switch>
           <Route exact path="/">
-            <MainPageComponent
-              copos={Math.round(userInfo.comsumtionInMl / 3400)}
-              coposEmMl={userInfo.comsumtionInMl}
-            />
+            <MainPageComponent userData={userData} setData={setData} />
           </Route>
           <Route path="/profile">
             <Profile />
